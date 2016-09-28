@@ -1,0 +1,37 @@
+@import "mediaqueries.scss";
+@import "vars.scss";
+
+//general styles
+html {
+  background-color: black;
+  color: white;
+}
+
+#title {
+  text-align: center;
+}
+
+//input and output text boxes
+.half {
+  border: none;
+  font-family: monospace;
+  color: $bright_green;
+  background-color: $grey;
+  height: 700px;
+  min-width: 400px;
+  max-width:600px;
+  margin: 50px;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.left {
+  float: left;
+  margin-left: 75px;
+}
+
+.right {
+  float: right;
+  margin-right: 75px;
+}
+
